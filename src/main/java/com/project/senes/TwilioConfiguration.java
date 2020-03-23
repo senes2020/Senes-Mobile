@@ -15,6 +15,7 @@ public class TwilioConfiguration {
 
     }
 
+    //Gets and setters
     public String getAccountSid() {
         return accountSid;
     }

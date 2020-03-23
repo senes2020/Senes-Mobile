@@ -9,7 +9,7 @@ public class Service {
     private final SmsSender smsSender;
 
     @Autowired
-    public Service(@Qualifier("twilio") TwilioSmsSender smsSender) {
+    public Service(@Qualifier("sms") TwilioSmsSender smsSender) {
         this.smsSender = smsSender;
     }
 

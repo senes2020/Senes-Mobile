@@ -32,7 +32,7 @@ public class TwilioSmsSender implements SmsSender {
             LOGGER.info("Send sms {}" + smsRequest);
         } else {
             throw new IllegalArgumentException(
-                    "Number (" + smsRequest.getNumber() + ") is not valid!"
+                    "Number (" + smsRequest.getNumber() + ") is invalid!"
             );
         }
 

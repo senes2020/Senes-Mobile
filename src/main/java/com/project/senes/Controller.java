@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("login/sms")
+@RequestMapping("home/login/sms")
 public class Controller {
 
     private final Service service;

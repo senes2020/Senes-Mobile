@@ -10,7 +10,7 @@ import com.twilio.Twilio;
 @Configuration
 public class TwilioInitializer {
 
-    //Permie enviar mensagens para testes
+    //Permite enviar mensagens para testes
     private final static Logger LOGGER = LoggerFactory.getLogger(TwilioInitializer.class);
 
     private final TwilioConfiguration twilioConfiguration;
